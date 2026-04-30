@@ -3,22 +3,26 @@ import { motion, useInView } from 'framer-motion'
 import { skills } from '../data/portfolio'
 
 const skillColors = {
-  SQL: 'from-blue-500/20 to-blue-600/10 border-blue-500/25 text-blue-300',
   'Power BI': 'from-yellow-500/20 to-yellow-600/10 border-yellow-500/25 text-yellow-300',
-  Python: 'from-green-500/20 to-green-600/10 border-green-500/25 text-green-300',
   Tableau: 'from-orange-500/20 to-orange-600/10 border-orange-500/25 text-orange-300',
   Excel: 'from-emerald-500/20 to-emerald-600/10 border-emerald-500/25 text-emerald-300',
-  Snowflake: 'from-cyan-500/20 to-cyan-600/10 border-cyan-500/25 text-cyan-300',
-  Azure: 'from-sky-500/20 to-sky-600/10 border-sky-500/25 text-sky-300',
-  Databricks: 'from-red-500/20 to-red-600/10 border-red-500/25 text-red-300',
+  DAX: 'from-amber-500/20 to-amber-600/10 border-amber-500/25 text-amber-300',
+  SSRS: 'from-lime-500/20 to-lime-600/10 border-lime-500/25 text-lime-300',
+  SQL: 'from-blue-500/20 to-blue-600/10 border-blue-500/25 text-blue-300',
+  'T-SQL': 'from-blue-400/20 to-blue-500/10 border-blue-400/25 text-blue-200',
+  Python: 'from-green-500/20 to-green-600/10 border-green-500/25 text-green-300',
   Pandas: 'from-violet-500/20 to-violet-600/10 border-violet-500/25 text-violet-300',
   NumPy: 'from-indigo-500/20 to-indigo-600/10 border-indigo-500/25 text-indigo-300',
-  Matplotlib: 'from-pink-500/20 to-pink-600/10 border-pink-500/25 text-pink-300',
+  Snowflake: 'from-cyan-500/20 to-cyan-600/10 border-cyan-500/25 text-cyan-300',
+  'Azure Data Factory': 'from-sky-500/20 to-sky-600/10 border-sky-500/25 text-sky-300',
+  Databricks: 'from-red-500/20 to-red-600/10 border-red-500/25 text-red-300',
+  Azure: 'from-sky-400/20 to-sky-500/10 border-sky-400/25 text-sky-200',
+  'ETL Pipelines': 'from-teal-500/20 to-teal-600/10 border-teal-500/25 text-teal-300',
 }
 
 const proficiency = {
-  SQL: 95, 'Power BI': 92, Python: 85, Tableau: 80,
-  Excel: 90, Snowflake: 78, Azure: 75, Databricks: 72,
+  'Power BI': 92, Tableau: 80, Excel: 90, DAX: 82, SSRS: 70,
+  SQL: 95, 'T-SQL': 88, Python: 85, Pandas: 83, NumPy: 76,
 }
 
 function Badge({ name, delay, inView }) {

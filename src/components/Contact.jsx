@@ -4,7 +4,7 @@ import { Mail, Link2, MapPin, Download, ArrowRight } from 'lucide-react'
 import { personal } from '../data/portfolio'
 
 const items = [
-  { icon: Mail, label: 'Email', value: 'harshavardhanreddy.vippala@example.com', href: `mailto:${personal.email}`, color: '#22d3ee' },
+  { icon: Mail, label: 'Email', value: personal.email, href: `mailto:${personal.email}`, color: '#22d3ee' },
   { icon: Link2, label: 'LinkedIn', value: 'Connect with me', href: personal.linkedin, color: '#60a5fa' },
   { icon: MapPin, label: 'Location', value: personal.location, href: null, color: '#2dd4bf' },
 ]
@@ -34,7 +34,7 @@ export default function Contact() {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-gradient-white">Get In Touch</h2>
           <div className="mt-4 mx-auto w-24 h-px bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
           <p className="text-slate-500 text-sm mt-4 max-w-md mx-auto">
-            Open to data analytics roles, consulting, or just talking shop. Reach out anytime.
+            Open to Data Analyst roles | Open to relocation | No sponsorship required
           </p>
         </motion.div>
 
