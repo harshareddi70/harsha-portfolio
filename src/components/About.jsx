@@ -32,28 +32,14 @@ export default function About() {
           <div className="mt-4 mx-auto w-24 h-px bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.15 }}
+            className="flex flex-col justify-center"
           >
-            {/* Avatar */}
-            <div className="relative inline-block mb-8">
-              <div
-                className="w-28 h-28 rounded-2xl flex items-center justify-center font-display text-3xl font-bold text-gradient"
-                style={{
-                  background: 'linear-gradient(135deg, rgba(34,211,238,0.1) 0%, rgba(45,212,191,0.1) 100%)',
-                  border: '1px solid rgba(34,211,238,0.2)',
-                  boxShadow: '0 0 30px rgba(34,211,238,0.1)',
-                }}
-              >
-                HV
-              </div>
-              <div className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-cyan-400 animate-pulse" />
-            </div>
-
             <h3 className="font-display text-2xl font-semibold text-white mb-5">
               Turning raw data into{' '}
               <span className="text-gradient">business clarity</span>
@@ -93,7 +79,7 @@ export default function About() {
           </motion.div>
 
           {/* Right: highlight cards */}
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4 self-center">
             {highlights.map((h, i) => {
               const Icon = h.icon
               return (
