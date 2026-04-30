@@ -63,17 +63,14 @@ export default function About() {
               <p>
                 I'm <strong className="text-white">Harsha Vardhan Reddy Vippala</strong>, a Data Analyst
                 based in <span className="text-cyan-400 font-mono text-sm">Troy, Michigan</span> with 4+ years
-                of experience turning complex data into decisions — across supply chain, sales, and business operations.
+                of experience building scalable reporting and delivering data-driven insights across supply chain and business operations.
               </p>
               <p>
-                At <strong className="text-white">Blue Yonder</strong>, I partner with supply chain and
-                data science teams to improve forecasting and inventory visibility. Recent impact includes
-                a <strong className="text-white">20% improvement in demand forecast accuracy</strong> and
-                a <strong className="text-white">60% reduction in manual reporting effort</strong>.
+                At <strong className="text-white">Blue Yonder</strong>, I develop Power BI dashboards, automate reporting workflows, and build data pipelines that support supply chain and logistics decisions. I've driven a <strong className="text-white">60% reduction in manual reporting effort</strong> and a <strong className="text-white">12% reduction in distribution costs</strong>.
               </p>
               <p>
-                My stack covers SQL, Python, Power BI, Tableau, Azure ML, Databricks, Snowflake, and Kafka —
-                built for scale, with a constant focus on real business impact.
+                My expertise spans SQL, Power BI, Tableau, Python, and Snowflake — focused on data quality,
+                clean data models, and self-service dashboards that teams can actually rely on.
               </p>
             </div>
 

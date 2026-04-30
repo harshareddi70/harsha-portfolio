@@ -7,21 +7,22 @@ const skillColors = {
   Tableau: 'from-orange-500/20 to-orange-600/10 border-orange-500/25 text-orange-300',
   Excel: 'from-emerald-500/20 to-emerald-600/10 border-emerald-500/25 text-emerald-300',
   DAX: 'from-amber-500/20 to-amber-600/10 border-amber-500/25 text-amber-300',
+  'Power Automate': 'from-purple-500/20 to-purple-600/10 border-purple-500/25 text-purple-300',
   SQL: 'from-blue-500/20 to-blue-600/10 border-blue-500/25 text-blue-300',
+  'T-SQL': 'from-blue-400/20 to-blue-500/10 border-blue-400/25 text-blue-200',
   Python: 'from-green-500/20 to-green-600/10 border-green-500/25 text-green-300',
   Pandas: 'from-violet-500/20 to-violet-600/10 border-violet-500/25 text-violet-300',
-  PySpark: 'from-rose-500/20 to-rose-600/10 border-rose-500/25 text-rose-300',
-  'Azure ML': 'from-sky-500/20 to-sky-600/10 border-sky-500/25 text-sky-300',
+  NumPy: 'from-indigo-500/20 to-indigo-600/10 border-indigo-500/25 text-indigo-300',
   Snowflake: 'from-cyan-500/20 to-cyan-600/10 border-cyan-500/25 text-cyan-300',
-  'Azure Data Factory': 'from-blue-400/20 to-blue-500/10 border-blue-400/25 text-blue-200',
+  'Azure Data Factory': 'from-sky-500/20 to-sky-600/10 border-sky-500/25 text-sky-300',
+  'Azure Data Lake': 'from-sky-400/20 to-sky-500/10 border-sky-400/25 text-sky-200',
   Databricks: 'from-red-500/20 to-red-600/10 border-red-500/25 text-red-300',
-  Kafka: 'from-teal-500/20 to-teal-600/10 border-teal-500/25 text-teal-300',
-  'Azure Synapse': 'from-indigo-500/20 to-indigo-600/10 border-indigo-500/25 text-indigo-300',
+  DBT: 'from-rose-500/20 to-rose-600/10 border-rose-500/25 text-rose-300',
 }
 
 const proficiency = {
-  'Power BI': 92, Tableau: 80, Excel: 90, DAX: 82,
-  SQL: 95, Python: 85, Pandas: 83, PySpark: 78,
+  'Power BI': 92, Tableau: 80, Excel: 90, DAX: 82, 'Power Automate': 78,
+  SQL: 95, 'T-SQL': 88, Python: 85, Pandas: 83, NumPy: 76,
 }
 
 function Badge({ name, delay, inView }) {
