@@ -10,9 +10,9 @@ const fadeUp = (delay = 0) => ({
 
 const stats = [
   { value: '4+', label: 'Years Experience' },
-  { value: '50+', label: 'Dashboards Built' },
-  { value: '3', label: 'Cloud Platforms' },
-  { value: '∞', label: 'Data Points Processed' },
+  { value: '60%', label: 'Reporting Effort Reduced' },
+  { value: '12%', label: 'Distribution Cost Saved' },
+  { value: '30%', label: 'SQL Query Time Improved' },
 ]
 
 export default function Hero() {
