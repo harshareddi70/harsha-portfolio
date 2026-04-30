@@ -67,7 +67,7 @@ export const experience = [
     role: 'Data Analyst',
     company: 'Blue Yonder',
     duration: '2023 – Present',
-    location: 'Troy, Michigan',
+    location: 'Dallas, TX (Remote from Troy, MI)',
     description:
       'Working on supply chain analytics and business intelligence solutions for enterprise clients. Building automated dashboards, data pipelines, and quality frameworks that drive operational efficiency.',
     highlights: [
