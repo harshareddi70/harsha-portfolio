@@ -3,11 +3,11 @@ export const personal = {
   firstName: 'Harsha',
   title: 'Data Analyst',
   location: 'Troy, Michigan',
-  email: 'harshavardhanreddy.vippala@example.com',
-  linkedin: 'https://linkedin.com/in/harshavardhanreddyvippala',
+  email: 'harshareddi.70@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/harshavippala1',
   summary:
     'Data Analyst with 4+ years of experience in SQL, Power BI, and Python. Focused on supply chain analytics, dashboard automation, and data quality frameworks.',
-  resume: '/resume.pdf',
+  resume: '/Harsha_Data_Analyst_Resume.pdf',
 }
 
 export const skills = [
