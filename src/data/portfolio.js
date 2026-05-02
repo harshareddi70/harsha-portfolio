@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'Sales Performance Dashboard | Excel',
     description:
-      'End-to-end Excel analytics dashboard analyzing ~128K Amazon India orders (Apr–Jun 2022). Built with Python + xlsxwriter: cleaned raw data with pandas, engineered 4 derived features, and rendered a single-screen business dashboard with 6 KPI cards and 7 charts across revenue, geography, category, and fulfilment dimensions.',
+      'End-to-end Excel analytics dashboard analyzing ~128K Amazon e-commerce orders (Apr–Jun 2022). Built with Python + xlsxwriter: cleaned raw data with pandas, engineered 4 derived features, and rendered a single-screen business dashboard with 6 KPI cards and 7 charts across revenue, geography, category, and fulfilment dimensions.',
     tech: ['Python', 'pandas', 'xlsxwriter', 'Excel', 'KPI Design'],
     github: 'https://github.com/harshareddi70/amazon-sales-dashboard',
     impact: 'Sets & Kurtas drive majority of revenue across 8 product categories',
