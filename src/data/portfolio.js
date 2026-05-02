@@ -38,7 +38,16 @@ export const skills = [
   },
 ]
 
-export const projects = []
+export const projects = [
+  {
+    title: 'Supply Chain KPI Analysis',
+    description:
+      'End-to-end analytics pipeline on 180k+ row DataCo supply chain dataset. Cleaned messy raw data with pandas, engineered KPI flags (on-time delivery, late delivery, profit margin), built 7 EDA charts and a full KPI dashboard. Key finding: 57.3% late delivery rate concentrated in specific shipping modes — a major operational risk.',
+    tech: ['Python', 'pandas', 'SQL', 'Snowflake SQL', 'matplotlib', 'seaborn'],
+    github: 'https://github.com/harshareddi70/supply-chain-kpi-analysis',
+    impact: '57.3% late delivery rate identified across 180k orders',
+  },
+]
 
 export const experience = [
   {
