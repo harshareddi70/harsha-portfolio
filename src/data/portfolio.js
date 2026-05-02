@@ -40,6 +40,14 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'Sales Performance Dashboard | Excel',
+    description:
+      'End-to-end Excel analytics dashboard analyzing ~128K Amazon India orders (Apr–Jun 2022). Built with Python + xlsxwriter: cleaned raw data with pandas, engineered 4 derived features, and rendered a single-screen business dashboard with 6 KPI cards and 7 charts across revenue, geography, category, and fulfilment dimensions.',
+    tech: ['Python', 'pandas', 'xlsxwriter', 'Excel', 'KPI Design'],
+    github: 'https://github.com/harshareddi70/amazon-sales-dashboard',
+    impact: 'Sets & Kurtas drive majority of revenue across 8 product categories',
+  },
+  {
     title: 'Supply Chain KPI Analysis',
     description:
       'End-to-end analytics pipeline on 180k+ row DataCo supply chain dataset. Cleaned messy raw data with pandas, engineered KPI flags (on-time delivery, late delivery, profit margin), built 7 EDA charts and a full KPI dashboard. Key finding: 57.3% late delivery rate concentrated in specific shipping modes — a major operational risk.',
